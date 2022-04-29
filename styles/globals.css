@@ -1,3 +1,14 @@
+:root {
+  /* gradient colors */
+  --gradient-init: #870000;
+  --gradient-end: #190A05;
+
+  /* color scheme */
+  --primary: #6172CF;
+  --secondary: #7486E7;
+  --contrast: #FFFFFF;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +24,22 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: fit-content;
+    height: 100%;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  #__next {
+    width: 100%;
+    height: 100%;
+  }
+  
 }
