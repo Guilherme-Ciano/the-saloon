@@ -1,0 +1,67 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: var(--contrast);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: fit-content;
+    width: 100%;
+}
+
+.navbarBrand {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+
+}
+
+.navbarLinks {
+    width: 50%;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;    
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.navbarLinks ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 1rem;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbarLinks ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: 500ms;
+}
+
+.navbarLinks ul li:hover {
+    border-bottom: 1px solid var(--contrast);
+}

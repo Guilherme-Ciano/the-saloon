@@ -1,16 +1,18 @@
 :root {
   /* gradient colors */
   --gradient-init: #870000;
-  --gradient-end: #190A05;
+  --gradient-end: #190a05;
 
   /* color scheme */
-  --primary: #6172CF;
-  --secondary: #7486E7;
-  --contrast: #FFFFFF;
+  --primary: #001220;
+  --primary-light: #001c31;
+  --secondary: #fa7268;
+  --contrast: #ffffff;
 }
 
 html,
 body {
+  width: 100%;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -26,7 +28,6 @@ a {
   box-sizing: border-box;
 }
 
-
 @media only screen and (max-width: 700px) {
   body {
     width: fit-content;
@@ -41,5 +42,4 @@ a {
     width: 100%;
     height: 100%;
   }
-  
 }

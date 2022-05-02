@@ -6,6 +6,7 @@
   height: 100vh;
   width: 100%;
   background: var(--primary);
+  
   z-index: -10;
 }
 
@@ -83,14 +84,14 @@
 }
 
 .buttonSecondary {
-  background: var(--secondary);
+  background: var(--primary-light);
   color: white;
 }
 
 .buttonText {
   margin: 0;
   padding: 0;
-  background: -webkit-linear-gradient(45deg, #7a82ec, #0956e5);
+  background: -webkit-linear-gradient(45deg, #7aeca9, #51afee);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;

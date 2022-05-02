@@ -1,0 +1,13 @@
+.signUpContainer {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url("https://c1.wallpaperflare.com/preview/811/162/523/gambling-sweepstakes-poker-luck-play-profit.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}   
